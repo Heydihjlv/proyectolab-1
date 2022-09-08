@@ -1,0 +1,43 @@
+<div class="login">
+    <div class="login-triangle"></div>
+    
+    <h2 class="login-header">Agregar laboratorio</h2>
+    <form [formGroup]="form" (ngSubmit)="save($event)" class="login-container" >
+  <div class="colum1">
+
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Nombre Laboratorio</label>
+        <input type="text" maxlength="10" class="form-control" formControlName="nombre">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Pais</label>
+        <input type="text" maxlength="10" class="form-control" formControlName="pais">
+    </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Ciudad</label>
+        <input type="text" maxlength="10" class="form-control" formControlName="ciudad">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Dirección</label>
+        <input type="text" class="form-control" formControlName="direccion">
+      </div>
+    </div>
+    <div class="colum2">
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">RUC</label>
+            <input type="text" class="form-control" formControlName="ruc">
+          </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Correo Electrónico</label>
+        <input type="text" class="form-control" formControlName="correo">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Nombre propietario</label>
+        <input type="text" class="form-control" formControlName="propietario">
+      </div>
+    </div>
+    <p><input class="button" type="submit" value="Registrarme"></p>
+  </form>
+
+</div>
+

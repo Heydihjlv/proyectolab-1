@@ -1,0 +1,33 @@
+<div class="contenedor">
+    <div class="informacion_paciente">
+   Hola
+    </div>
+   <table class="table table-bordered">
+       <thead class="thead-dark">
+         <tr>
+           <th scope="col">ID</th>
+           <th scope="col">Identificación</th>
+           <th scope="col">Nombre</th>
+           <th scope="col">Apellido</th>
+           <th scope="col">Fecha Nacimiento</th>
+           <th scope="col">Sexo</th>
+           <th scope="col">Acción</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr *ngFor="let OBLaboratorista of laboratorista">
+           <th scope="row" >{{OBLaboratorista.idpersona}}</th>
+           <td >{{OBLaboratorista.numcedula}}</td>
+           <td>{{OBLaboratorista.nombre}}</td>
+           <td >{{OBLaboratorista.apellido}}</td>
+           <td >{{OBLaboratorista.fechanac}}</td>
+           <td >{{OBLaboratorista.sexo}}</td>
+           <td >
+            <button type="button" class="btn btn-primary">Editar</button>
+            <button type="button" class="btn btn-danger">Eliminar</button>
+        </td>
+         </tr>
+       </tbody>
+     </table>
+   </div>
+   

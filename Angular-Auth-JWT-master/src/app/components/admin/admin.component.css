@@ -1,0 +1,44 @@
+.contenedor
+{
+    width: 800px;
+    height: 600px;
+    background-color: rgb(56, 59, 59);
+    margin: 0 auto;
+    margin-top:4%;
+    border: 3px solid black;
+    border-radius:2em;
+}
+
+.buttonsi{
+    margin-top:5%;
+    margin-left: 14%;
+    text-decoration: none;
+    width: 250px;
+    height: 250px;
+    font-family: arial;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 800;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius:2em;
+  }
+  .buttonsi:hover{
+    color: #ffffff;
+    background-color: #0a0a0a;
+    text-decoration: none;
+  }
+
+  
+.colum1, .colum2 { 
+    width: 47%; 
+    margin:5px;
+    padding: 12px;
+  } 
+  
+  .colum1  { float:left;  }
+  .colum2 { float:right; } 

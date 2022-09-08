@@ -1,0 +1,30 @@
+.informacion_paciente
+{
+    height: 150px;
+}
+.enviar
+{
+   height: 100px;
+   text-align: center;
+   line-height: 100px;
+}
+
+.table
+{
+    width: 1000px;
+    margin: 0 auto;
+    border: 3rem;
+}
+
+.btn
+{
+
+    text-align: center;
+    margin: 3px;
+}
+
+.thead-dark
+{
+    background-color: rgb(33, 35, 36);
+    color: azure;
+}

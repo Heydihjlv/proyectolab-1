@@ -1,0 +1,18 @@
+<div class="login">
+  <div class="login-triangle"></div>
+  
+  <h2 class="login-header">Iniciar sesión</h2>
+
+  <div class="login-container">
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Usuario</label>
+      <input [(ngModel)]="user.usuario" type="email" class="form-control">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Contraseña</label>
+      <input [(ngModel)]="user.contrasena" type="password" class="form-control">
+    </div>
+    <p><input (click)="logIn()" type="submit" value="Ingresar"></p>
+    <a class="link" href="http://localhost:4200/register"for="exampleFormControlTextarea1" class="form-label">Registrarme</a>
+  </div>
+</div>

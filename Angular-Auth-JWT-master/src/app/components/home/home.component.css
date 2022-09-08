@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+*{
+  box-sizing: border-box;
+}
+img{
+  display: block;
+ 
+}
+
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+/*Estilos banner*/
+ 
+.banner{
+  margin-top: 0px;
+  position: center;
+  margin-bottom:30px ;
+}
+
+.banner .contenedor{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+  color: #fff;
+  text-align: center;
+
+}
+
+/**estilos info*/
+.tarjetas{
+  display: flex;
+  padding: 100px;
+}
+
+
+.Laboratorios{
+  display: flex;
+  padding-left: 10rem;
+
+}
+
+.info{
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  margin:20px;
+  text-align: center;
+  transition: all 0.25s;
+
+}
+
+.info img {
+  width: 330px;
+  height: 220px;
+}
+
+.banner__ofrece{
+  padding-left: 5rem;
+
+}
+.info__columna {
+ 
+ 
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0);
+  background: #40CFFF;
+  overflow: hidden;
+  margin:20px;
+  text-align: center;
+  transition: all 0.25s;
+  color: #fff;
+
+}
+
+.info__columna img {
+  width: 330px;
+  height: 220px;
+}
+
+
+.info__columna h2 {
+font-weight: 600;
+}
+
+.info__columna p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.text{
+  padding-left: 5rem;
+}
