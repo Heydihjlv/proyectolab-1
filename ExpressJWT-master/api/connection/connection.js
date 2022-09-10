@@ -35,7 +35,7 @@ const {Pool}  = require('pg');
 const config = {
   user: 'postgres',
   host:'localhost',
-  database: 'DDLab',
+  database: 'BDLab',
   password: '123456',
 }
 
