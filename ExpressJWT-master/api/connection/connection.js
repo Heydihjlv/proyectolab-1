@@ -1,4 +1,4 @@
-/*onst pg  = require('pg');
+const pg  = require('pg');
 
 const client = new pg.Client({
   host: 'ec2-44-205-63-142.compute-1.amazonaws.com',
@@ -27,9 +27,9 @@ getExamenes();
 console.log('asfsd');
 
 
-module.exports= client;*/
+module.exports= client;
 
-
+/*
 const {Pool}  = require('pg');
 
 const config = {
@@ -44,3 +44,4 @@ const pool = new Pool(config)
 module.exports=pool;
 
 
+*/
